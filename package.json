@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-sort-by-length",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ESLint rules that sort imports, JSX props, interface fields, enum members, object keys, destructuring and const declarations by length, shortest first.",
   "keywords": [
     "eslint",
@@ -21,6 +21,7 @@
   },
   "files": [
     "src",
+    "docs",
     "README.md",
     "CHANGELOG.md",
     "LICENSE"

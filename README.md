@@ -73,13 +73,13 @@ behavior (see each rule). Those cases are still reported.
 
 | Rule | What it checks |
 |---|---|
-| [`imports`](#imports) | Groups imports and sorts each group by statement length |
-| [`jsx-props`](#jsx-props) | JSX props by `name={value}` length |
-| [`interface-fields`](#interface-fields) | Interface and type literal members by length |
-| [`enum-members`](#enum-members) | Enum members by member name length |
-| [`object-keys`](#object-keys) | Object literal properties by length |
-| [`destructuring`](#destructuring) | Object destructuring entries by length |
-| [`const-declarations`](#const-declarations) | Consecutive `const` statements by line length, dependencies first |
+| [`imports`](docs/rules/imports.md) | Groups imports and sorts each group by statement length |
+| [`jsx-props`](docs/rules/jsx-props.md) | JSX props by `name={value}` length |
+| [`interface-fields`](docs/rules/interface-fields.md) | Interface and type literal members by length |
+| [`enum-members`](docs/rules/enum-members.md) | Enum members by member name length |
+| [`object-keys`](docs/rules/object-keys.md) | Object literal properties by length |
+| [`destructuring`](docs/rules/destructuring.md) | Object destructuring entries by length |
+| [`const-declarations`](docs/rules/const-declarations.md) | Consecutive `const` statements by line length, dependencies first |
 
 ### imports
 
