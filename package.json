@@ -1,0 +1,52 @@
+{
+  "name": "eslint-plugin-sort-by-length",
+  "version": "0.1.0",
+  "description": "ESLint rules that sort imports, JSX props, interface fields, enum members, object keys, destructuring and const declarations by length, shortest first.",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "sort",
+    "sort-imports",
+    "jsx",
+    "react",
+    "typescript"
+  ],
+  "license": "MIT",
+  "author": "Tamerlan Pirmammadov",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "peerDependencies": {
+    "eslint": "^8.57.0 || ^9.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^8.0.0",
+    "eslint": "^9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TamerlanPirmammadov93/eslint-plugin-sort-by-length.git"
+  },
+  "homepage": "https://github.com/TamerlanPirmammadov93/eslint-plugin-sort-by-length#readme",
+  "bugs": {
+    "url": "https://github.com/TamerlanPirmammadov93/eslint-plugin-sort-by-length/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
